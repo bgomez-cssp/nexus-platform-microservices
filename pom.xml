@@ -17,6 +17,7 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>nexus-platform-config</module>
     <module>nexus-platform-gateway</module>
     <module>nexus-platform-eureka</module>
   </modules>

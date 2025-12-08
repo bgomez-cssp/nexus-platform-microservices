@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="nexus-platform-gateway" />
         <module name="nexus-platform-eureka" />
+        <module name="nexus-platform-config" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nexus-platform-config" options="-parameters" />
       <module name="nexus-platform-eureka" options="-parameters" />
       <module name="nexus-platform-gateway" options="-parameters" />
     </option>
