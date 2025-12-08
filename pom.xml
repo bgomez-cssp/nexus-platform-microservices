@@ -18,6 +18,7 @@
 
   <modules>
     <module>nexus-platform-gateway</module>
+    <module>nexus-platform-eureka</module>
   </modules>
 
   <properties>
