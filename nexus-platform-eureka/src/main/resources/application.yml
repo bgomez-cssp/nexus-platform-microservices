@@ -1,1 +1,8 @@
-spring.application.name=nexus-platform-eureka
+spring:
+  cloud:
+    config:
+      uri: ...
+  application:
+    name: nexus-eureka
+  config:
+    import: optional:configserver:http://localhost:8888
