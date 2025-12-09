@@ -1,1 +1,5 @@
-spring.application.name=nexus-platform-gateway
+spring:
+  application:
+    name: nexus-gateway
+  config:
+    import: optional:configserver:http://localhost:8888
