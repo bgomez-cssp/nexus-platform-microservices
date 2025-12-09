@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$/nexus-platform-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nexus-platform-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nexus-platform-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nexus-platform-it-inventory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nexus-platform-spring-boot-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
