@@ -20,6 +20,7 @@
     <module>nexus-platform-config</module>
     <module>nexus-platform-gateway</module>
     <module>nexus-platform-eureka</module>
+    <module>nexus-platform-it-inventory</module>
     <module>nexus-platform-spring-boot-admin</module>
   </modules>
 
