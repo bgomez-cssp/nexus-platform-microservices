@@ -1,1 +1,5 @@
-spring.application.name=nexus-platform-it-inventory
+spring:
+  application:
+    name: nexus-it-inventory
+  config:
+    import: optional:configserver:http://localhost:8888
