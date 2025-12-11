@@ -5,10 +5,6 @@ server:
 spring:
   application:
     name: nexus-it-inventory
-  session:
-    store-type: jdbc
-    jdbc:
-      initializer-mode: always
   datasource:
     url:
     username:
