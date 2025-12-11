@@ -1,5 +1,6 @@
 server:
   port: 8090
+  timezone: America/El_Salvador
 
 spring:
   application:
@@ -28,7 +29,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+      jdbc:
+        time_zone: America/El_Salvador
 
+  jackson:
+    time-zone: America/El_Salvador
 eureka:
   instance:
     hostname: localhost
