@@ -1,0 +1,35 @@
+server:
+  port: 8090
+  timezone: America/El_Salvador
+
+spring:
+  application:
+    name: nexus-it-inventory
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      idle-timeout: 10000
+      connection-timeout: 2000
+      pool-name: HikariPool
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+      jdbc:
+        time_zone: America/El_Salvador
+
+  jackson:
+    time-zone: America/El_Salvador
+eureka:
+  instance:
+    hostname: localhost
