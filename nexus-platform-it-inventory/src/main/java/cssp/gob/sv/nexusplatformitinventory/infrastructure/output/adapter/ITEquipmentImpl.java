@@ -5,7 +5,6 @@ import cssp.gob.sv.nexusplatformitinventory.domain.repository.ITEquipmentDomainC
 import cssp.gob.sv.nexusplatformitinventory.infrastructure.output.entity.ITEquipmentEntity;
 import cssp.gob.sv.nexusplatformitinventory.infrastructure.output.mapper.ITEquipmentMapper;
 import cssp.gob.sv.nexusplatformitinventory.infrastructure.output.persistence.data.ITEquipmentRepository;
-import cssp.gob.sv.nexusplatformitinventory.infrastructure.output.repository.BaseMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
